@@ -8,3 +8,16 @@ Both analyses tool should start the interpreter. It will read one line at a time
 I also implemented code for expressions as well as if statements.   
 
 All of remain rules for project is explained in Homework 3 pdf file.
+
+To use  interpreter, follow these instructions:
+1)For clisp interpreter: Run the program like this: "clisp gpp_interpreter.lisp"
+2)For yacc parser:  Firstly : "lex gpp_interpreter.l"
+		                After: "yacc -d gpp_interpreter.y"
+		                Then: "gcc lex.yy.c y.tab.c -w"
+		                Run the program like this: "./a.out"
+After that,dollar sign($) come to terminal.
+
+Then if you want run file interpreter you should enter "g++ <filename>.g++" 
+or if you want run terminal interpreter you should enter only "g++"                    
+                    
+
