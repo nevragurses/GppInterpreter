@@ -10,8 +10,8 @@ I also implemented code for expressions as well as if statements.
 All of remain rules for project is explained in Homework 3 pdf file.
 
 To use  interpreter, follow these instructions:
-1)For clisp interpreter: Run the program like this: "clisp gpp_interpreter.lisp"
-2)For yacc parser:  Firstly : "lex gpp_interpreter.l"
+1) For clisp interpreter: Run the program like this: "clisp gpp_interpreter.lisp"
+2) For yacc parser:  Firstly : "lex gpp_interpreter.l"
 		                After: "yacc -d gpp_interpreter.y"
 		                Then: "gcc lex.yy.c y.tab.c -w"
 		                Run the program like this: "./a.out"
