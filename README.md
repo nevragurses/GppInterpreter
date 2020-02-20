@@ -17,7 +17,7 @@ To use  interpreter, follow these instructions:
 		                Run the program like this: "./a.out"
 After that,dollar sign($) come to terminal.
 
-Then if you want run file interpreter you should enter "g++ <filename>.g++" 
+Then if you want run file interpreter you should enter "g++ filename .g++".
 or if you want run terminal interpreter you should enter only "g++"                    
                     
 
